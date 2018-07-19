@@ -6,3 +6,7 @@ This is a todo list app created from scratch using nothing but vanilla javascrip
 ----
  - Font Awesome https://fontawesome.com/
  - Materialize CSS https://materializecss.com/
+
+### Screenshot
+----
+![todoApp_screenshot](https://i.imgur.com/pTAKg94.png "landing page of the app")
