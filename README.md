@@ -9,4 +9,4 @@ This is a todo list app created from scratch using nothing but vanilla javascrip
 
 ### Screenshot
 ----
-![todoApp_screenshot](https://i.imgur.com/JzdPcsH "landing page of the app")
+![todoApp_screenshot](https://i.imgur.com/JzdPcsH.png "landing page of the app")
