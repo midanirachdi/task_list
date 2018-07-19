@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+   <!--Import fontAwesome.css-->
+  <link rel="stylesheet" href="css/fa.css"/>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Task list</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div id="main" class="card">
+          <div class="card-content">
+            <span class="card-title">Task List</span>
+            <div class="row">
+              <form id='task-form'>
+                <div class="input-field col s12">
+                  <input type="text" name="task" id="task" autocomplete="off">
+                  <label for="task">New Task</label>
+                </div>
+                <input type="submit" value="Add task" class="btn" id="addTask"> 
+              </form>
+            </div>
+          </div>
+          <div class="card-action">
+            <h5 id="task-title">Tasks</h5>
+            <div class="input-field col s12">
+              <input type="text" name="filter" id="filter" autocomplete="off">
+              <label for="filter">Filter Tasks</label>
+            </div>
+            <ul class="collection">
+              
+            </ul>
+            <a href="#" class="clear-tasks btn black">Clear tasks</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
